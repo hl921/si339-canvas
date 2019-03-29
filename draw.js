@@ -84,7 +84,7 @@ var myCanvas = {
 
   window.addEventListener("orientationchange", function() {
     ctx.clearRect(0, 0, myCanvas.canvas.width, myCanvas.canvas.height);
-  })
+  },false)
 
 
  // color picker
